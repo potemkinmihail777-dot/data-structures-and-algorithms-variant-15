@@ -1,0 +1,14 @@
+[
+  {
+    "algorithm": "sum",
+    "slope": 0.8765407574720453
+  },
+  {
+    "algorithm": "max",
+    "slope": 0.9307766864509665
+  },
+  {
+    "algorithm": "equal_pairs",
+    "slope": 1.994473622507696
+  }
+]
