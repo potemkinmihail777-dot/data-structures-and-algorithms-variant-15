@@ -1,0 +1,56 @@
+[
+  {
+    "n": 1000,
+    "unique": 1000,
+    "height": 23,
+    "kind": "random"
+  },
+  {
+    "n": 3000,
+    "unique": 2994,
+    "height": 25,
+    "kind": "random"
+  },
+  {
+    "n": 10000,
+    "unique": 9981,
+    "height": 31,
+    "kind": "random"
+  },
+  {
+    "n": 30000,
+    "unique": 29780,
+    "height": 37,
+    "kind": "random"
+  },
+  {
+    "n": 100000,
+    "unique": 97522,
+    "height": 40,
+    "kind": "random"
+  },
+  {
+    "n": 16,
+    "unique": 16,
+    "height": 15,
+    "kind": "sorted"
+  },
+  {
+    "n": 64,
+    "unique": 64,
+    "height": 63,
+    "kind": "sorted"
+  },
+  {
+    "n": 256,
+    "unique": 256,
+    "height": 255,
+    "kind": "sorted"
+  },
+  {
+    "n": 512,
+    "unique": 512,
+    "height": 511,
+    "kind": "sorted"
+  }
+]

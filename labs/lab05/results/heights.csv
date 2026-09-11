@@ -1,0 +1,10 @@
+n,unique,height,kind
+1000,1000,23,random
+3000,2994,25,random
+10000,9981,31,random
+30000,29780,37,random
+100000,97522,40,random
+16,16,15,sorted
+64,64,63,sorted
+256,256,255,sorted
+512,512,511,sorted
