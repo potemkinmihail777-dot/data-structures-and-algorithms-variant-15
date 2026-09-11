@@ -1,0 +1,8 @@
+hash,chain_length,buckets,alpha
+polynomial,0,11085,0.6103515625
+polynomial,1,1972,0.6103515625
+polynomial,2,2124,0.6103515625
+polynomial,3,1032,0.6103515625
+polynomial,4,171,0.6103515625
+first_character,0,16383,0.6103515625
+first_character,10000,1,0.6103515625

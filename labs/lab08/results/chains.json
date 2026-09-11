@@ -1,0 +1,44 @@
+[
+  {
+    "hash": "polynomial",
+    "chain_length": 0,
+    "buckets": 11085,
+    "alpha": 0.6103515625
+  },
+  {
+    "hash": "polynomial",
+    "chain_length": 1,
+    "buckets": 1972,
+    "alpha": 0.6103515625
+  },
+  {
+    "hash": "polynomial",
+    "chain_length": 2,
+    "buckets": 2124,
+    "alpha": 0.6103515625
+  },
+  {
+    "hash": "polynomial",
+    "chain_length": 3,
+    "buckets": 1032,
+    "alpha": 0.6103515625
+  },
+  {
+    "hash": "polynomial",
+    "chain_length": 4,
+    "buckets": 171,
+    "alpha": 0.6103515625
+  },
+  {
+    "hash": "first_character",
+    "chain_length": 0,
+    "buckets": 16383,
+    "alpha": 0.6103515625
+  },
+  {
+    "hash": "first_character",
+    "chain_length": 10000,
+    "buckets": 1,
+    "alpha": 0.6103515625
+  }
+]
