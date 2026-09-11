@@ -1,0 +1,130 @@
+[
+  {
+    "algorithm": "bubble_sort",
+    "before": [
+      [
+        2,
+        "a"
+      ],
+      [
+        2,
+        "b"
+      ],
+      [
+        1,
+        "c"
+      ]
+    ],
+    "after": [
+      [
+        1,
+        "c"
+      ],
+      [
+        2,
+        "a"
+      ],
+      [
+        2,
+        "b"
+      ]
+    ],
+    "stable_on_this_input": true
+  },
+  {
+    "algorithm": "insertion_sort",
+    "before": [
+      [
+        2,
+        "a"
+      ],
+      [
+        2,
+        "b"
+      ],
+      [
+        1,
+        "c"
+      ]
+    ],
+    "after": [
+      [
+        1,
+        "c"
+      ],
+      [
+        2,
+        "a"
+      ],
+      [
+        2,
+        "b"
+      ]
+    ],
+    "stable_on_this_input": true
+  },
+  {
+    "algorithm": "selection_sort",
+    "before": [
+      [
+        2,
+        "a"
+      ],
+      [
+        2,
+        "b"
+      ],
+      [
+        1,
+        "c"
+      ]
+    ],
+    "after": [
+      [
+        1,
+        "c"
+      ],
+      [
+        2,
+        "b"
+      ],
+      [
+        2,
+        "a"
+      ]
+    ],
+    "stable_on_this_input": false
+  },
+  {
+    "algorithm": "quick_sort",
+    "before": [
+      [
+        2,
+        "a"
+      ],
+      [
+        2,
+        "b"
+      ],
+      [
+        1,
+        "c"
+      ]
+    ],
+    "after": [
+      [
+        1,
+        "c"
+      ],
+      [
+        2,
+        "b"
+      ],
+      [
+        2,
+        "a"
+      ]
+    ],
+    "stable_on_this_input": false
+  }
+]

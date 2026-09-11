@@ -1,0 +1,62 @@
+[
+  {
+    "kind": "random",
+    "algorithm": "bubble_sort",
+    "slope": 2.035496599340313
+  },
+  {
+    "kind": "random",
+    "algorithm": "insertion_sort",
+    "slope": 2.018999200179015
+  },
+  {
+    "kind": "random",
+    "algorithm": "selection_sort",
+    "slope": 2.0385818374900264
+  },
+  {
+    "kind": "random",
+    "algorithm": "quick_sort",
+    "slope": 1.1886554517630188
+  },
+  {
+    "kind": "sorted",
+    "algorithm": "bubble_sort",
+    "slope": 1.0674806262095848
+  },
+  {
+    "kind": "sorted",
+    "algorithm": "insertion_sort",
+    "slope": 1.0598352391392964
+  },
+  {
+    "kind": "sorted",
+    "algorithm": "selection_sort",
+    "slope": 2.0435955290236474
+  },
+  {
+    "kind": "sorted",
+    "algorithm": "quick_sort",
+    "slope": 1.2092754655595788
+  },
+  {
+    "kind": "reversed",
+    "algorithm": "bubble_sort",
+    "slope": 2.025250586613101
+  },
+  {
+    "kind": "reversed",
+    "algorithm": "insertion_sort",
+    "slope": 2.0283064481746678
+  },
+  {
+    "kind": "reversed",
+    "algorithm": "selection_sort",
+    "slope": 2.0315009958104153
+  },
+  {
+    "kind": "reversed",
+    "algorithm": "quick_sort",
+    "slope": 1.1738670766114592
+  }
+]

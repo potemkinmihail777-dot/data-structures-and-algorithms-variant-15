@@ -1,0 +1,5 @@
+algorithm,before,after,stable_on_this_input
+bubble_sort,"[(2, 'a'), (2, 'b'), (1, 'c')]","[(1, 'c'), (2, 'a'), (2, 'b')]",True
+insertion_sort,"[(2, 'a'), (2, 'b'), (1, 'c')]","[(1, 'c'), (2, 'a'), (2, 'b')]",True
+selection_sort,"[(2, 'a'), (2, 'b'), (1, 'c')]","[(1, 'c'), (2, 'b'), (2, 'a')]",False
+quick_sort,"[(2, 'a'), (2, 'b'), (1, 'c')]","[(1, 'c'), (2, 'b'), (2, 'a')]",False

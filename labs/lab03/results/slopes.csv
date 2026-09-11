@@ -1,0 +1,13 @@
+kind,algorithm,slope
+random,bubble_sort,2.035496599340313
+random,insertion_sort,2.018999200179015
+random,selection_sort,2.0385818374900264
+random,quick_sort,1.1886554517630188
+sorted,bubble_sort,1.0674806262095848
+sorted,insertion_sort,1.0598352391392964
+sorted,selection_sort,2.0435955290236474
+sorted,quick_sort,1.2092754655595788
+reversed,bubble_sort,2.025250586613101
+reversed,insertion_sort,2.0283064481746678
+reversed,selection_sort,2.0315009958104153
+reversed,quick_sort,1.1738670766114592
