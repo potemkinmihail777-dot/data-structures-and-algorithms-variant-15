@@ -1,0 +1,77 @@
+[
+  {
+    "n": 1,
+    "moves": 1,
+    "formula": 1
+  },
+  {
+    "n": 2,
+    "moves": 3,
+    "formula": 3
+  },
+  {
+    "n": 3,
+    "moves": 7,
+    "formula": 7
+  },
+  {
+    "n": 4,
+    "moves": 15,
+    "formula": 15
+  },
+  {
+    "n": 5,
+    "moves": 31,
+    "formula": 31
+  },
+  {
+    "n": 6,
+    "moves": 63,
+    "formula": 63
+  },
+  {
+    "n": 7,
+    "moves": 127,
+    "formula": 127
+  },
+  {
+    "n": 8,
+    "moves": 255,
+    "formula": 255
+  },
+  {
+    "n": 9,
+    "moves": 511,
+    "formula": 511
+  },
+  {
+    "n": 10,
+    "moves": 1023,
+    "formula": 1023
+  },
+  {
+    "n": 11,
+    "moves": 2047,
+    "formula": 2047
+  },
+  {
+    "n": 12,
+    "moves": 4095,
+    "formula": 4095
+  },
+  {
+    "n": 13,
+    "moves": 8191,
+    "formula": 8191
+  },
+  {
+    "n": 14,
+    "moves": 16383,
+    "formula": 16383
+  },
+  {
+    "n": 15,
+    "moves": 32767,
+    "formula": 32767
+  }
+]

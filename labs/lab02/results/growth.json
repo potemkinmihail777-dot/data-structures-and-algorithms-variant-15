@@ -1,0 +1,149 @@
+[
+  {
+    "n": 1,
+    "capacity": 1,
+    "copies": 0,
+    "credit_cost_3": 3,
+    "writes_plus_copies": 1
+  },
+  {
+    "n": 2,
+    "capacity": 2,
+    "copies": 1,
+    "credit_cost_3": 6,
+    "writes_plus_copies": 3
+  },
+  {
+    "n": 3,
+    "capacity": 4,
+    "copies": 3,
+    "credit_cost_3": 9,
+    "writes_plus_copies": 6
+  },
+  {
+    "n": 4,
+    "capacity": 4,
+    "copies": 3,
+    "credit_cost_3": 12,
+    "writes_plus_copies": 7
+  },
+  {
+    "n": 5,
+    "capacity": 8,
+    "copies": 7,
+    "credit_cost_3": 15,
+    "writes_plus_copies": 12
+  },
+  {
+    "n": 8,
+    "capacity": 8,
+    "copies": 7,
+    "credit_cost_3": 24,
+    "writes_plus_copies": 15
+  },
+  {
+    "n": 9,
+    "capacity": 16,
+    "copies": 15,
+    "credit_cost_3": 27,
+    "writes_plus_copies": 24
+  },
+  {
+    "n": 16,
+    "capacity": 16,
+    "copies": 15,
+    "credit_cost_3": 48,
+    "writes_plus_copies": 31
+  },
+  {
+    "n": 17,
+    "capacity": 32,
+    "copies": 31,
+    "credit_cost_3": 51,
+    "writes_plus_copies": 48
+  },
+  {
+    "n": 32,
+    "capacity": 32,
+    "copies": 31,
+    "credit_cost_3": 96,
+    "writes_plus_copies": 63
+  },
+  {
+    "n": 33,
+    "capacity": 64,
+    "copies": 63,
+    "credit_cost_3": 99,
+    "writes_plus_copies": 96
+  },
+  {
+    "n": 64,
+    "capacity": 64,
+    "copies": 63,
+    "credit_cost_3": 192,
+    "writes_plus_copies": 127
+  },
+  {
+    "n": 65,
+    "capacity": 128,
+    "copies": 127,
+    "credit_cost_3": 195,
+    "writes_plus_copies": 192
+  },
+  {
+    "n": 128,
+    "capacity": 128,
+    "copies": 127,
+    "credit_cost_3": 384,
+    "writes_plus_copies": 255
+  },
+  {
+    "n": 129,
+    "capacity": 256,
+    "copies": 255,
+    "credit_cost_3": 387,
+    "writes_plus_copies": 384
+  },
+  {
+    "n": 256,
+    "capacity": 256,
+    "copies": 255,
+    "credit_cost_3": 768,
+    "writes_plus_copies": 511
+  },
+  {
+    "n": 257,
+    "capacity": 512,
+    "copies": 511,
+    "credit_cost_3": 771,
+    "writes_plus_copies": 768
+  },
+  {
+    "n": 512,
+    "capacity": 512,
+    "copies": 511,
+    "credit_cost_3": 1536,
+    "writes_plus_copies": 1023
+  },
+  {
+    "n": 513,
+    "capacity": 1024,
+    "copies": 1023,
+    "credit_cost_3": 1539,
+    "writes_plus_copies": 1536
+  },
+  {
+    "n": 1024,
+    "capacity": 1024,
+    "copies": 1023,
+    "credit_cost_3": 3072,
+    "writes_plus_copies": 2047
+  },
+  {
+    "n": 1025,
+    "capacity": 2048,
+    "copies": 2047,
+    "credit_cost_3": 3075,
+    "writes_plus_copies": 3072
+  }
+]
