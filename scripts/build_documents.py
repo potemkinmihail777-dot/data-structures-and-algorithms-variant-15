@@ -10,7 +10,7 @@ import markdown
 from lxml import html
 import matplotlib
 from docx import Document
-from docx.shared import Cm, Pt
+from docx.shared import Cm, Pt, RGBColor
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.opc.constants import RELATIONSHIP_TYPE as RT
@@ -69,7 +69,7 @@ def markup(element, folder):
 
 def word_inline(paragraph, element, folder):
     if element.text:
-        paragraph.add_run(element.text)
+        paragraph.add_run(element.text.replace("\n", " "))
     for child in element:
         content = "".join(child.itertext())
         if child.tag == "a":
@@ -93,6 +93,8 @@ def word_inline(paragraph, element, folder):
             run.append(text)
             hyperlink.append(run)
             paragraph._p.append(hyperlink)
+        elif child.tag in ("p", "span"):
+            word_inline(paragraph, child, folder)
         elif child.tag != "img":
             run = paragraph.add_run(content)
             run.bold = child.tag in ("strong", "b")
@@ -101,7 +103,7 @@ def word_inline(paragraph, element, folder):
                 run.font.name = "Consolas"
                 run.font.size = Pt(9)
         if child.tail:
-            paragraph.add_run(child.tail)
+            paragraph.add_run(child.tail.replace("\n", " "))
 
 
 def main():
@@ -192,7 +194,9 @@ def main():
         normal.paragraph_format.line_spacing = 1.12
         for name in ("Title", "Heading 1", "Heading 2", "Heading 3"):
             doc.styles[name].font.name = "Calibri"
-            doc.styles[name].font.color.rgb = None
+            doc.styles[name].font.color.rgb = RGBColor(0, 0, 0)
+        for border in doc.styles.element.xpath(".//w:pBdr"):
+            border.getparent().remove(border)
         footer = section.footer.paragraphs[0]
         footer.alignment = 1
         field = OxmlElement("w:fldSimple")
@@ -206,15 +210,16 @@ def main():
                 create_parent="div",
             )
             if part_number:
-                doc.add_page_break()
                 story.append(PageBreak())
             for element in tree:
                 tag = element.tag
                 if tag in ("h1", "h2", "h3"):
-                    doc.add_heading(
+                    heading = doc.add_heading(
                         "".join(element.itertext()),
                         level=0 if tag == "h1" else int(tag[1]) - 1,
                     )
+                    if part_number and tag == "h1":
+                        heading.paragraph_format.page_break_before = True
                     story.append(
                         Paragraph(
                             markup(element, folder),
